@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image_news"
+        android:layout_width="130dp"
+        android:scaleType="centerCrop"
+        android:layout_height="80dp"
+        android:src="@drawable/kd1" />
+
+    <TextView
+        android:id="@+id/text_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/image_news"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="KD 夺得 2018 Final MVP" />
+
+    <TextView
+        android:id="@+id/text_news_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_news_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/image_news"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:text="Golden State 4:1 Toronto Raptors，KD per game 30+5+5,win FMVP" />
+
+</RelativeLayout>

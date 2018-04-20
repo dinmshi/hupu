@@ -1,0 +1,5 @@
+<resources>
+    <string name="title_news">新闻</string>
+    <string name="title_dashboard">论坛</string>
+    <string name="title_game">比赛</string>
+</resources>

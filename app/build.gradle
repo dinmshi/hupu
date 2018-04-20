@@ -39,4 +39,5 @@ dependencies {
     implementation project(':detail')
     implementation project(':lib')
     implementation project(':room')
+    implementation project(':main')
 }
